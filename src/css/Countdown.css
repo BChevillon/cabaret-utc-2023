@@ -1,0 +1,26 @@
+.Countdown {
+    display: flex;
+    gap: 20px;
+    font-family: Codigra;
+    justify-content: center;
+    text-align: center;
+    
+    max-width: max-content;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px #000000;
+    flex-wrap: wrap;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.Countdown div {
+    color: white;
+}
+
+.Countdown svg path:first-child {
+    stroke: black;
+}

@@ -1,0 +1,32 @@
+.event img {
+    border-radius: 5px;
+    max-width: 400px;
+    height: auto;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.eventFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin: 0 100px;
+}
+
+.event p {
+    font: Arial;
+}
+
+.event .square {
+    width: 100%;
+    max-width: 39vw !important;
+    height: auto;
+}
+
+@media screen and (max-width: 1066px) {
+    .event .square {
+        max-width: 100% !important;
+    }
+}

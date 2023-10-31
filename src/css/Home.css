@@ -8,6 +8,7 @@
   margin: 0 0.5em;
 }
 
+
 .video-container {
   height: 17.5vw;
   width: 35vw;
@@ -53,6 +54,11 @@ iframe {
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0.5em;
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+#logo_texte {
+  width: 300px;
+  margin-top: 20px;
 }

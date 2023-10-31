@@ -1,0 +1,21 @@
+.transportsFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin: 0 100px;
+}
+
+
+.transports .square {
+    width: 100%;
+    max-width: 39vw !important;
+    height: auto;
+}
+
+@media screen and (max-width: 1066px) {
+    .transports .square {
+        max-width: 100% !important;
+    }
+}
