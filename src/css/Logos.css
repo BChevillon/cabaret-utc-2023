@@ -1,0 +1,10 @@
+.logos {
+    z-index: 1;
+    display: flex;
+    width: 70px;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}

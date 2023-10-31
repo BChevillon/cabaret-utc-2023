@@ -1,0 +1,15 @@
+.main {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: linear-gradient(0.6turn, #5c131f 35%, #b45517);
+  max-height: 0px;
+  animation: fadeIn 2s forwards 0.5s;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  to {
+      max-height: none;
+  }
+}
