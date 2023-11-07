@@ -45,7 +45,7 @@ export default function Countdown() {
       >
         {({ elapsedTime, color }) => (
           <span style={{ color }}>
-            {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
+            {renderTime("jours", getTimeDays(daysDuration - elapsedTime))}
           </span>
         )}
       </CountdownCircleTimer>
@@ -60,7 +60,7 @@ export default function Countdown() {
       >
         {({ elapsedTime, color }) => (
           <span style={{ color }}>
-            {renderTime("hours", getTimeHours(daySeconds - elapsedTime))}
+            {renderTime("heures", getTimeHours(daySeconds - elapsedTime))}
           </span>
         )}
       </CountdownCircleTimer>
@@ -90,7 +90,7 @@ export default function Countdown() {
       >
         {({ elapsedTime, color }) => (
           <span style={{ color }}>
-            {renderTime("seconds", getTimeSeconds(elapsedTime))}
+            {renderTime("secondes", getTimeSeconds(elapsedTime))}
           </span>
         )}
       </CountdownCircleTimer>

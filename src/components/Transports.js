@@ -11,7 +11,7 @@ export default function Transports() {
           <div className="square" style={{maxWidth: "1200px"}}>
             <h2>Transport autonome possible</h2>
             <p>Adresse : 786 Rue de Bayencourt, 60490 Ressons-sur-Matz (Centre de Culture et de Loisirs)</p>
-            <p>Dernière entrée : 19h45</p>
+            <p>Dernière entrée : 19h30</p>
           </div>
           <div className="square" style={{maxWidth: "1200px"}}>
             <h2>Navettes :</h2>
