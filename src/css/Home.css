@@ -8,6 +8,13 @@
   margin: 0 0.5em;
 }
 
+.home a {
+  color: white;
+  font-family: Colonna;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
 
 .video-container {
   height: 17.5vw;

@@ -9,7 +9,7 @@ import Countdown from './Countdown'
 import videoSource from "../assets/cabaretA21_extrait.mp4";
 import logoTexte from "../assets/logo_texte.png"
 //import glass from "../assets/glass.png";
-//import dancers from "../assets/dancers.png";
+import dancers from "../assets/dancers.png";
 
 
 
@@ -29,6 +29,7 @@ export default function Home() {
         <h1>Rendez-vous le 30 novembre 2023 !</h1>
         <div className="square" >
           <h2>Shotgun le 07/11 à 19h52m30s</h2>
+          <a href="https://assos.utc.fr/woolly/ventes/208">Woolly</a>
           <Countdown />
         </div>
         {/*
