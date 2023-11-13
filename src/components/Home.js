@@ -28,8 +28,7 @@ export default function Home() {
         <img src={logoTexte} alt="Cabaret" id="logo_texte"></img>
         <h1>Rendez-vous le 30 novembre 2023 !</h1>
         <div className="square" >
-          <h2>Shotgun le 07/11 à 19h52m30s</h2>
-          <a href="https://assos.utc.fr/woolly/ventes/208">Woolly</a>
+          <h2>Le shotgun est terminé ! Rendez-vous le 30/11</h2>
           <Countdown />
         </div>
         {/*

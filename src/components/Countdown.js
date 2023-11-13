@@ -29,7 +29,7 @@ const getTimeDays = (time) => (time / daySeconds) | 0;
 export default function Countdown() {
   //const stratTime = new Date("October 11, 2023, 12:00") /1000; // use UNIX timestamp in seconds
   const stratTime = new Date() / 1000;
-  const endTime = new Date("November 7, 2023, 19:52:30") /1000; // use UNIX timestamp in seconds
+  const endTime = new Date("November 30, 2023, 18:00:00") /1000; // use UNIX timestamp in seconds
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
