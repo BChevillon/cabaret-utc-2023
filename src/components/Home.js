@@ -8,8 +8,7 @@ import Countdown from './Countdown'
 
 import videoSource from "../assets/cabaretA21_extrait.mp4";
 import logoTexte from "../assets/logo_texte.png"
-//import glass from "../assets/glass.png";
-import dancers from "../assets/dancers.png";
+//import dancers from "../assets/dancers.png";
 
 
 
@@ -47,21 +46,22 @@ export default function Home() {
           ></iframe>
         </div>
 
-        <div className="forms" style={{zIndex: "1"}}>
-          {/*
+        {/*<div className="forms" style={{zIndex: "1"}}>
+          
           <a href="">
             <button class='btn-slack'>
               Devenir serveur
               <img src={glass} alt="Logo serveur" />
             </button>
-          </a>*/}
-          {/*
+          </a>*
+          {
             <button class='btn-slack' onClick={() => document.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdtiWEHgKzNO2KcxJwdJMKkGXGwQgkbTqtq8i-DfoaCaSnrDg/viewform'}>
                 Devenir artiste
                 <img src={dancers} alt="Logo serveur" />
             </button>
-            */}
+            
         </div>
+          */}
     </div>
   );
 };

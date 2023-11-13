@@ -105,6 +105,7 @@ p {
 }
 
 button {
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -113,21 +114,20 @@ button {
   border-radius: 5px;
   border: none;
   font-size: 24px;   
-  width: 300px;
-  height: 70px;
+  width: 250px;
+  height: 60px;
   text-align: center;
   font-family: "Codigra";
 }
 
 .btn-slack {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
   background: #ED7D39;
 }
 
-.btn-slack a {   
-  text-decoration: none;
-  color: black;
-}
 
 button img {
-  width: 40px;
+  width: 30px;
 }
