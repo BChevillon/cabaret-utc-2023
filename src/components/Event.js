@@ -7,7 +7,7 @@ export default function Event() {
   return (
     <div className="event">
       <h1>L'évènement</h1>
-        <p style={{fontSize: "1.5em"}}>Jeudi 30 novembre, 20h-00h</p>
+        <p style={{fontSize: "1.5em"}}>Jeudi 30 novembre, 19h-00h</p>
         <div class="eventFlex">
           <img src={welcome} alt="Bienvenue cabaret" />
           <div className="square" style={{maxWidth: "1200px"}}>

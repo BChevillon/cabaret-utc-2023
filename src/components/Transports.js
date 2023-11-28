@@ -16,7 +16,8 @@ export default function Transports() {
           <div className="square" style={{maxWidth: "1200px"}}>
             <h2>Navettes :</h2>
             <p>Départ et retour à BF uniquement</p>
-            <p>Horaires : bientôt !</p>
+            <p>Départs à 17h30 et 18h30</p>
+            <p><a style={{color:"white"}} href="https://forms.gle/HcwRB5ipNATkebqPA">Choix de navettes</a></p>
           </div>
         </div>
     </div>
